@@ -1,0 +1,21 @@
+# Hardware specifications. Taken from the document given in the 'source' column
+# Aliases:
+#   A100 -> A100-40GB-SMX
+#   V100 -> V100-SMX2
+hardware,full_name,ram_gb,fp64_tflops,fp32_tflops,tf32_tflops,bfloat16_tflops,tdp_watt,source
+A100-40GB-SMX,Nvidia A100-40GB-SMX,40,9.7,19.5,156,312,400,https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf
+A100-80GB-SMX,Nvidia A100-80GB-SMX,80,9.7,19.5,156,312,400,https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf
+A100-40GB-PCIe,Nvidia A100-40GB-PCIe,40,9.7,19.5,156,312,250,https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf
+A100-80GB-PCIe,Nvidia A100-80GB-PCIe,80,9.7,19.5,156,312,300,https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf
+V100-SMX2,Nvidia V100-SMX2,16,7.8,15.7,125,,300,https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf
+V100S-PCIe,Nvidia V100S-PCIe,32,8.2,16.4,130,,250,https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf
+V100-PCIe,Nvidia V100-PCIe,16,7.0,14.0,112,,250,https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf
+TPUv4,Google Could TPUv4,32,,,,275,192,https://cloud.google.com/tpu/docs/v4
+TPUv5e,Google Cloud TPUv5e,16,,,,197,,https://cloud.google.com/tpu/docs/v5e
+TPUv5p,Google Cloud TPUv5p,98,,,,459,,https://cloud.google.com/tpu/docs/v5p
+MI250X,AMD Instinct MI250X,128,47.9,47.9,95.7,383,500,https://www.amd.com/en/products/accelerators/instinct/mi200/mi250x.html 
+A6000,Nvidia RTX A6000,48,,38.7,,,300,https://www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/quadro-product-literature/proviz-print-nvidia-rtx-a6000-datasheet-us-nvidia-1454980-r9-web%20(1).pdf
+H100,Nvidia H100 SMX,80,34,67,989,1979,700,https://www.nvidia.com/en-us/data-center/h100/
+H200,Nvidia H200 SMX,141,34,67,989,1979,700,https://www.nvidia.com/en-us/data-center/h200/
+A100,Nvidia A100-40GB-SMX,40,9.7,19.5,156,312,400,https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf
+V100,Nvidia V100-SMX2,16,7.8,15.7,125,,300,https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf

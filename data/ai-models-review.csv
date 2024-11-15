@@ -1,0 +1,22 @@
+name,date,techno,hardware,n_gpus_training,n_gpus_inference,training_time,inference_time,author,n_params,resolution_deg,ensembles,purpose,full_title,doi
+Keisler,2022-02-15,GNN,A100,1,1,475200,1.6,Ryan Keisler,6.7M,1,no,global NWP,Forecasting Global Weather with Graph Neural Networks,10.48550/arXiv.2202.07575
+FourCastNet,2022-02-22,AFNO,A100,64,1,57600,2.8,Pathak et al.,,0.25,no,global NWP,FourCastNet: A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operators,10.48550/arXiv.2202.11214
+PanguWeather,2022-11-03,3DEST,V100-SMX2,192,1,1382400,14,Bi et al.,256M,0.25,no,global NWP,Pangu-Weather: A 3D High-Resolution Model for Fast and Accurate Global Weather Forecast,10.48550/arXiv.2211.02556
+GraphCast,2022-12-24,GNN,TPUv4,32,1,2419200,60,Lam et al.,36.7M,0.25,no,global NWP,GraphCast: Learning skillful medium-range global weather forecasting,10.48550/arXiv.2212.12794
+ClimaX,2023-01-24,Transformer,,,,,,Ngyuen et al.,,,,Foundation,ClimaX: A foundation model for weather and climate,10.48550/arXiv.2301.10343
+FengWu,2023-04-06,MMAE,A100,32,1,1468800,30,Chen et al.,,0.25,no,global NWP,FengWu: Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead,10.48550/arXiv.2304.02948
+Neural-LAM,2023-09-29,GNN,A100,1,1,345600,6.3,Oskarsson et al.,,0.025,no,regional NWP,Graph-based Neural Weather Prediction for Limited Area Modeling,10.48550/arXiv.2309.17370
+FuXi,2023-11-16,Transformer,A100,8,,518400,,Chen et al.,,0.25,yes,global NWP,FuXi: a cascade machine learning forecasting system for 15-day global weather forecast,10.1038/s41612-023-00512-1
+FengWuGHR,2024-01-28,MMAE,,,,,,Han et al.,,0.09,no,global NWP,FengWu-GHR: Learning the Kilometer-scale Medium-range Global Weather Forecasting,10.48550/arXiv.2402.00059
+GenCast,2024-05-01,GNN,TPUv5,32,1,432000,320,Price et al.,,0.25,yes,global NWP,GenCast: Diffusion-based ensemble forecasting for medium-range weather,10.48550/arXiv.2312.15796
+AIFS,2024-06-03,GNN,A100,64,1,604800,150,Lang et al.,,0.25,yes,global NWP,AIFS - ECMWF's data-driven forecasting system,10.48550/arXiv.2406.01465
+Graph-EFM,2024-06-07,GNN,A100,8,1,630000,2.5,Oskarsson et al.,,1.5,yes,global NWP,Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks,10.48550/arXiv.2406.04759
+Aurora,2024-05-20,Transformer,,,,,,Bodnar et al.,,,,Foundation,Aurora: A Foundation Model of the Atmosphere,10.48550/arXiv.2405.13063
+NeuralGCM,2024-07-22,Hybrid,TPUv4,256,1,1814400,119,Kochkov et al.,31.1M,0.7,yes,global NWP,Neural General Circulation Models for Weather and Climate,10.48550/arXiv.2311.07222
+AtmoRep,2023-08-25,Transformer,,,,,,Lessig et al.,,,,Foundation,AtmoRep: A stochastic model of atmosphere dynamics using large scale representation learning,10.48550/arXiv.2308.13280
+StretchedGrid,2024-09-04,GNN,MI250X,1,1,22788000,,Nipen et al.,246M,0.025,no,regional NWP,Regional data-driven weather modeling with a global stretched-grid,10.48550/arXiv.2409.02891
+StormCast,2024-08-18,GTSDM,H100,64,,432000,,Pathak et al.,,0.025,yes,regional NWP,Kilometer-Scale Convection Allowing Model Emulation using Generative Diffusion Modeling,
+FourCastNet2,2023-06-06,SFNO,H200/A6000,64,1,14400,20,Bonev et al.,,0.25,no,global NWP,Spherical Fourier Neural Operators: Learning Stable Dynamics on the Sphere,10.48550/arXiv.2306.03838
+FromObs,2024-07-22,Transformer,A100,,,,,McNally et al.,,,no,global NWP,Data driven weather forecasts trained and initialised directly from observations,10.48550/arXiv.2407.15586
+Weyn,2020-08-12,CNN,V100,1,1,259200,0.07,Weyn et al.,,1.9,no,global NWP,Improving Data-Driven Global Weather Prediction Using Deep Convolutional Neural Networks on a Cubed Sphere,10.1029/2020MS002109
+RaspThuerey,2021-02-01,CNN,GTX 2080,1,,345600,,Rasp and Thuerey,,5.625,no,global NWP,Data-Driven Medium-Range Weather Prediction With a Resnet Pretrained on Climate Simulations: A New Model for WeatherBench,10.1029/2020MS002405
