@@ -58,12 +58,12 @@ Table 1: INPUT DATA
 
 | name | inference_time | training_time | n_gpus_training | hardware | tdp | doi |
 | :--: | :------------: | :-----------: | :-------------: | :------: | :-: | :-: |
-| FourCastNet | 2.8 | 57600.0 | 64.0 | A100 | 400.0 | 10.48550/arXiv.2202.11214 |
-| PanguWeather | 14.0 | 1382400.0 | 192.0 | V100-SMX2 | 300.0 | 10.48550/arXiv.2211.02556 |
-| GraphCast | 60.0 | 2419200.0 | 32.0 | TPUv4 | 192.0 | 10.48550/arXiv.2212.12794 |
-| FengWu | 30.0 | 1468800.0 | 32.0 | A100 | 400.0 | 10.48550/arXiv.2304.02948 |
-| AIFS | 150.0 | 604800.0 | 64.0 | A100 | 400.0 | 10.48550/arXiv.2406.01465 |
-| NeuralGCM | 119.0 | 1814400.0 | 256.0 | TPUv4 | 192.0 | 10.48550/arXiv.2311.07222 |
+| FourCastNet | 2.8 | 57600.0 | 64.0 | A100 | 400.0 | <https://doi.org/10.48550/arXiv.2202.11214> |
+| PanguWeather | 14.0 | 1382400.0 | 192.0 | V100-SMX2 | 300.0 | <https://doi.org/10.48550/arXiv.2211.02556> |
+| GraphCast | 60.0 | 2419200.0 | 32.0 | TPUv4 | 192.0 | <https://doi.org/10.48550/arXiv.2212.12794> |
+| FengWu | 30.0 | 1468800.0 | 32.0 | A100 | 400.0 | <https://doi.org/10.48550/arXiv.2304.02948> |
+| AIFS | 150.0 | 604800.0 | 64.0 | A100 | 400.0 | <https://doi.org/10.48550/arXiv.2406.01465> |
+| NeuralGCM | 119.0 | 1814400.0 | 256.0 | TPUv4 | 192.0 | <https://doi.org/10.48550/arXiv.2311.07222> |
 
 
 Table 2: OUTPUT DATA
@@ -92,8 +92,8 @@ Table 3: CARBON FOOTPRINTS
 
 ### Carbon intensity map
 
-<img src="figures/carbon_intensities.png" width="500" />
+<img src="figures/carbon_intensities.png" width="800" />
 
 ### Energy consumption for one year of use
 
-<img src="figures/oneyearoper_conso.png" width="500" />
+<img src="figures/oneyearoper_conso.png" width="800" />
