@@ -20,3 +20,4 @@ FourCastNet2,2023-06-06,SFNO,H200/A6000,64,1,14400,20,Bonev et al.,,0.25,no,glob
 FromObs,2024-07-22,Transformer,A100,,,,,McNally et al.,,,no,global NWP,Data driven weather forecasts trained and initialised directly from observations,10.48550/arXiv.2407.15586
 Weyn,2020-08-12,CNN,V100,1,1,259200,0.07,Weyn et al.,,1.9,no,global NWP,Improving Data-Driven Global Weather Prediction Using Deep Convolutional Neural Networks on a Cubed Sphere,10.1029/2020MS002109
 RaspThuerey,2021-02-01,CNN,GTX 2080,1,,345600,,Rasp and Thuerey,,5.625,no,global NWP,Data-Driven Medium-Range Weather Prediction With a Resnet Pretrained on Climate Simulations: A New Model for WeatherBench,10.1029/2020MS002405
+AIFS-CRPS,2024-12-20,GNN,H100,128,1,604800,91.4,Lang et al.,,0.25,yes,global NWP,AIFS-CRPS: Ensemble forecasting using a model trained with a loss function based on the Continuous Ranked Probability Score,https://arxiv.org/abs/2412.15832
