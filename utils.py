@@ -24,7 +24,7 @@ def print_table(
     cols=[
         "name",
         "inference_time",
-        "training_time",
+        "training_time_day",
         "n_gpus_training",
         "hardware",
         "tdp",

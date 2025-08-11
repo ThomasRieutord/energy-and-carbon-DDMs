@@ -116,6 +116,7 @@ oneyearoper_uq = utils.usecase_energy_consumption(
 
 # Computing quantities
 # --------------------
+ai["training_time_day"] = ai["training_time"] / (24*3600)
 ai["training_energy_kWh"] = (
     ai["training_time"] * ai["n_gpus_training"] * ai["tdp"] / 3.6e6
 )
